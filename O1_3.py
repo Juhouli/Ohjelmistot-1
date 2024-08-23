@@ -1,3 +1,2 @@
-pituus = input("Anna ympyrän säde")
-sade = float(pituus)
+sade = float(input("Anna ympyrän säde"))
 print(3.14 * (sade**2))

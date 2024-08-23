@@ -1,4 +1,7 @@
-luku1 = input("Anna ensimmäinen luku")
-luku2 = input("Anna toinen luku")
-luku3 = input("Anna kolmas luku")
-print("Summa " + str(luku1+luku2+luku3) + ", tulo " + str(luku1* luku2 * luku3) + " ja keskiarvo " + str((luku1+luku2+luku3)/3))
+a = float(input("Anna ensimmäinen luku"))
+b = float(input("Anna toinen luku"))
+c = float(input("Anna kolmas luku"))
+summa = a+b+c
+tulo = a*b*c
+ka = (a+b+c)/3
+print(f"Lukujen summa on {summa:.2f}, tulo on {tulo:.2f} ja keskiarvo on {ka:.2f}")

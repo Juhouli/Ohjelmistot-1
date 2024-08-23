@@ -1,1 +1,2 @@
-print("Hei Juho Ouli")
+käyttäjä = "Juho Ouli"
+print("Hei, " + käyttäjä + "!")
