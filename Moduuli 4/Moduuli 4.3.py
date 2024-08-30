@@ -1,7 +1,7 @@
 luvut = []
+a = input("Anna minulle lukuja. Tyhjä merkki lopettaa kyselyn ja tulostaa pienimmän sekä suurimman syötetyn luvun ")
 while True:
-    a = input("Anna minulle lukuja. Tyhjä merkki lopettaa kyselyn "
-                    "ja tulostaa pienimmän sekä suurimman syötetyn luvun ")
+    a = input("Anna seuraava luku: ")
     if a!="":
             luvut.append(float(a))
     else:
