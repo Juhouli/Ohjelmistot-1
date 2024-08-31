@@ -8,4 +8,4 @@ while a!= arvaus:
     elif arvaus < a:
         print("Liian pieni arvaus")
     arvaus = int(input("Arvaa uudestaan: "))
-print("Oikein")
+print("Oikein!")

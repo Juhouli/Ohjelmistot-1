@@ -9,4 +9,5 @@ while kerrat <= yht:
     if (x**2)+(y**2)<1:
         sisalla = sisalla + 1
     kerrat = kerrat + 1
+
 print("Algoritmi laski piin likiarvoksi " + str((4*sisalla)/yht))
