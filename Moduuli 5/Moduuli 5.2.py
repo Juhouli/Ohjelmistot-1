@@ -6,6 +6,7 @@ while True:
             luvut.append(float(a))
     else:
         luvut.sort(reverse=True)
-        print("Viisi suurinta syötettyä lukua järjestyksessä suurimmasta pienimpään ovat:")
-        print(luvut[0:5])
         break
+print("Syötetyistä luvuista viisi suuritna suurimmasta pienimpään ovat:")
+for isoimmat in range(0,5):
+    print(luvut[isoimmat])
