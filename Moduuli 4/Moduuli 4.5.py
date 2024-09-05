@@ -11,5 +11,4 @@ while kerrat < 5:
     elif kirjaudu_kayttaja == kayttaja and kirjaudu_salasana == salasana:
         print("Tervetuloa")
         break
-if kerrat >= 5:
-    print("Pääsy evätty")
+if kerrat >= 5:print("Pääsy evätty")
