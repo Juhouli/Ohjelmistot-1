@@ -1,4 +1,4 @@
-nimilista = {""}
+nimilista = set()
 nimi = str(input("Anna nimiä listaan. Tyhjä merkkijono lopettaa ohjelman: "))
 while nimi != "":
     if nimi in nimilista:
