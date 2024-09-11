@@ -10,4 +10,5 @@ def noppailu(nopan_tahkot):
         print(f"Heiton {kerrat:.0f} silmäluku on {heitto:.0f}")
     return
 
-noppailu(21)
+tahkot = int(input("Anna nopan tahkojen lukumäärä: "))
+noppailu(tahkot)
