@@ -9,4 +9,10 @@ while luku != "":
     luku = input("Anna seuraava luku: ")
 
 summa = listan_muutos(lista)
-print(f"Syötettyhen numeroiden summa on {summa:.0f}.")
+print(f"Syötettyjen numeroiden summa on {summa:.0f}.")
+
+#def listasumma (lista1):
+    #summa = 0
+    #for i in lista1:
+        #summa += i
+    #return summa

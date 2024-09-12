@@ -18,4 +18,14 @@ while luku != "":
 
 kaksi_listaa(lista1)
 
+#def vain_parilliset(lista):
+    #parilliset = []
+    #for luku in lista:
+        #if luku % 2 == 0:
+            #parilliset.append(luku)
+    #return parilliset
 
+#luvut = [5, 2, 4, 10, 12, 1000, 8]
+#uusi_lista = vain_parilliset(luvut)
+#print(uusi_lista)
+#print(luvut)
