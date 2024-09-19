@@ -27,6 +27,6 @@ def hae_goal(goal):
     return tulos
 
 #kutsutaan funktiota tietyn goalin hakemiseksi
-goalit = hae_goal("HOT")
+goalit = hae_goal("HOTz")
 for g in goalit:
     print(g)
